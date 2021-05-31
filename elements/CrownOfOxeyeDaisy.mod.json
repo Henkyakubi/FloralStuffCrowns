@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "crown_of_dandelion-v4",
+    "textureHelmet": "crown_of_oxeye_daisy-v4",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
@@ -11,16 +11,16 @@
     "enableBoots": false,
     "textureBoots": "",
     "onHelmetTick": {
-      "name": "CrownOfDandelionHelmetTickEvent"
+      "name": "CrownOfOxeyeDaisyHelmetTickEvent"
     },
     "creativeTab": {
       "value": "CUSTOM:TabFloralStuffCrowns"
     },
-    "armorTextureFile": "crown_of_dandelion-v4_",
-    "helmetName": "Crown Of Dandelion",
-    "bodyName": "Crown Of Dandelion Body",
-    "leggingsName": "Crown Of Dandelion Leggings",
-    "bootsName": "Crown Of Dandelion Boots",
+    "armorTextureFile": "crown_of_oxeye_daisy-v4_",
+    "helmetName": "Crown Of Oxeye Daisy",
+    "bodyName": "Crown Of Oxeye Daisy Body",
+    "leggingsName": "Crown Of Oxeye Daisy Leggings",
+    "bootsName": "Crown Of Oxeye Daisy Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -46,10 +46,10 @@
     "damageValueBody": 0,
     "damageValueLeggings": 0,
     "damageValueBoots": 0,
-    "enchantability": 0,
+    "enchantability": 9,
     "toughness": 0.0,
     "equipSound": {
-      "value": "block.grass.step"
+      "value": "block.crop.break"
     },
     "repairItems": []
   }

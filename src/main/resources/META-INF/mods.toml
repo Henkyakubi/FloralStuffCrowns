@@ -8,6 +8,9 @@ displayName="FloralStuffCrowns"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net, https://henkyakubi.net"
 authors="henky, MCreator"
+description='''
+Flower Crowns
+'''
 
 [[dependencies.floralstuffcrowns]]
     modId="minecraft"

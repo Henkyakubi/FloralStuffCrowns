@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "crown_of_dandelion-v4",
+    "textureHelmet": "crown_of_orange_tulip-v3",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
@@ -11,16 +11,16 @@
     "enableBoots": false,
     "textureBoots": "",
     "onHelmetTick": {
-      "name": "CrownOfDandelionHelmetTickEvent"
+      "name": "CrownOfOrangeTulipHelmetTickEvent"
     },
     "creativeTab": {
       "value": "CUSTOM:TabFloralStuffCrowns"
     },
-    "armorTextureFile": "crown_of_dandelion-v4_",
-    "helmetName": "Crown Of Dandelion",
-    "bodyName": "Crown Of Dandelion Body",
-    "leggingsName": "Crown Of Dandelion Leggings",
-    "bootsName": "Crown Of Dandelion Boots",
+    "armorTextureFile": "crown_of_orange_tulip-v3_",
+    "helmetName": "Crown Of Orange Tulip",
+    "bodyName": "Crown Of Orange Tulip Body",
+    "leggingsName": "Crown Of Orange Tulip Leggings",
+    "bootsName": "Crown Of Orange Tulip Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -49,7 +49,7 @@
     "enchantability": 0,
     "toughness": 0.0,
     "equipSound": {
-      "value": "block.grass.step"
+      "value": "item.armor.equip_elytra"
     },
     "repairItems": []
   }

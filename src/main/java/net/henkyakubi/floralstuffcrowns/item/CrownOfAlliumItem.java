@@ -17,7 +17,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.henkyakubi.floralstuffcrowns.procedures.CrownOfDandelionHelmetTickEventProcedure;
+import net.henkyakubi.floralstuffcrowns.procedures.CrownOfAlliumHelmetTickEventProcedure;
 import net.henkyakubi.floralstuffcrowns.itemgroup.TabFloralStuffCrownsItemGroup;
 import net.henkyakubi.floralstuffcrowns.FloralstuffcrownsModElements;
 
@@ -25,17 +25,17 @@ import java.util.Map;
 import java.util.HashMap;
 
 @FloralstuffcrownsModElements.ModElement.Tag
-public class CrownOfDandelionItem extends FloralstuffcrownsModElements.ModElement {
-	@ObjectHolder("floralstuffcrowns:crown_of_dandelion_helmet")
+public class CrownOfAlliumItem extends FloralstuffcrownsModElements.ModElement {
+	@ObjectHolder("floralstuffcrowns:crown_of_allium_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("floralstuffcrowns:crown_of_dandelion_chestplate")
+	@ObjectHolder("floralstuffcrowns:crown_of_allium_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("floralstuffcrowns:crown_of_dandelion_leggings")
+	@ObjectHolder("floralstuffcrowns:crown_of_allium_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("floralstuffcrowns:crown_of_dandelion_boots")
+	@ObjectHolder("floralstuffcrowns:crown_of_allium_boots")
 	public static final Item boots = null;
-	public CrownOfDandelionItem(FloralstuffcrownsModElements instance) {
-		super(instance, 1);
+	public CrownOfAlliumItem(FloralstuffcrownsModElements instance) {
+		super(instance, 9);
 	}
 
 	@Override
@@ -54,7 +54,7 @@ public class CrownOfDandelionItem extends FloralstuffcrownsModElements.ModElemen
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.grass.step"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.shovel.flatten"));
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -63,7 +63,7 @@ public class CrownOfDandelionItem extends FloralstuffcrownsModElements.ModElemen
 
 			@OnlyIn(Dist.CLIENT)
 			public String getName() {
-				return "crown_of_dandelion";
+				return "crown_of_allium";
 			}
 
 			public float getToughness() {
@@ -74,7 +74,7 @@ public class CrownOfDandelionItem extends FloralstuffcrownsModElements.ModElemen
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(TabFloralStuffCrownsItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "floralstuffcrowns:textures/models/armor/crown_of_dandelion-v4__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
+						return "floralstuffcrowns:textures/models/armor/crown_of_allium-v2__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
 								+ ".png";
 					}
 
@@ -87,9 +87,9 @@ public class CrownOfDandelionItem extends FloralstuffcrownsModElements.ModElemen
 						{
 							Map<String, Object> $_dependencies = new HashMap<>();
 							$_dependencies.put("entity", entity);
-							CrownOfDandelionHelmetTickEventProcedure.executeProcedure($_dependencies);
+							CrownOfAlliumHelmetTickEventProcedure.executeProcedure($_dependencies);
 						}
 					}
-				}.setRegistryName("crown_of_dandelion_helmet"));
+				}.setRegistryName("crown_of_allium_helmet"));
 	}
 }

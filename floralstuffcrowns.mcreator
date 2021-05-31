@@ -50,23 +50,498 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craft_crown_dandelion"
+    },
+    {
+      "name": "CrownOfPoppyHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_poppy_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfPoppy",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_poppy",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownPoppy",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_poppy"
+    },
+    {
+      "name": "CrownOfBlueOrchidHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_blue_orchid_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfBlueOrchid",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_blue_orchid",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownBlueOrchid",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_blue_orchid"
+    },
+    {
+      "name": "CrownOfAlliumHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_allium_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfAllium",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_allium",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownAllium",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_allium"
+    },
+    {
+      "name": "CrownOfAzureBluetHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_azure_bluet_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfAzureBluet",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_azure_bluet",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownAzureBluet",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_azure_bluet"
+    },
+    {
+      "name": "CrownOfRedTulipHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_red_tulip_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfRedTulip",
+      "type": "armor",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_red_tulip",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownRedTulip",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_red_tulip"
+    },
+    {
+      "name": "CrownOfOrangeTulipHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_orange_tulip_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfOrangeTulip",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_orange_tulip",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownOrangeTulip",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_orange_tulip"
+    },
+    {
+      "name": "CrownOfWhiteTulipHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_white_tulip_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfWhiteTulip",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_white_tulip",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownWhiteTulip",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_white_tulip"
+    },
+    {
+      "name": "CrownOfPinkTulipHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_pink_tulip_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfPinkTulip",
+      "type": "armor",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_pink_tulip",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownPinkTulip",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_pink_tulip"
+    },
+    {
+      "name": "CrownOfOxeyeDaisyHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_oxeye_daisy_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfOxeyeDaisy",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_oxeye_daisy",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownOxeyeDaisy",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_oxeye_daisy"
+    },
+    {
+      "name": "CrownOfCornflowerHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_cornflower_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfCornflower",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_cornflower",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownCornflower",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_cornflower"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.floralstuffcrowns.crown_of_dandelion_leggings": "Crown Of Dandelion Leggings",
-      "item.floralstuffcrowns.crown_of_dandelion_boots": "Crown Of Dandelion Boots",
-      "item.floralstuffcrowns.crown_of_dandelion_helmet": "Crown Of Dandelion",
+      "item.floralstuffcrowns.crown_of_blue_orchid_boots": "Crown Of Blue Orchid Boots",
+      "item.floralstuffcrowns.crown_of_oxeye_daisy_chestplate": "Crown Of Oxeye Daisy Body",
+      "item.floralstuffcrowns.crown_of_cornflower_boots": "Crown Of Cornflower Boots",
+      "item.floralstuffcrowns.crown_of_orange_tulip_leggings": "Crown Of Orange Tulip Leggings",
       "item.floralstuffcrowns.crown_of_dandelion_chestplate": "Crown Of Dandelion Body",
-      "itemGroup.tabtab_floral_stuff_crowns": "FloralStuffCrowns"
+      "item.floralstuffcrowns.crown_of_pink_tulip_chestplate": "Crown Of Pink Tulip Body",
+      "item.floralstuffcrowns.crown_of_white_tulip_chestplate": "Crown Of White Tulip Body",
+      "item.floralstuffcrowns.crown_of_oxeye_daisy_boots": "Crown Of Oxeye Daisy Boots",
+      "item.floralstuffcrowns.crown_of_allium_helmet": "Crown Of Allium",
+      "item.floralstuffcrowns.crown_of_allium_boots": "Crown Of Allium Boots",
+      "item.floralstuffcrowns.crown_of_dandelion_helmet": "Crown Of Dandelion",
+      "item.floralstuffcrowns.crown_of_red_tulip_helmet": "Crown Of Red Tulip Helmet",
+      "item.floralstuffcrowns.crown_of_azure_bluet_helmet": "Crown Of Azure Bluet",
+      "item.floralstuffcrowns.crown_of_oxeye_daisy_helmet": "Crown Of Oxeye Daisy",
+      "item.floralstuffcrowns.crown_of_pink_tulip_boots": "Crown Of Pink Tulip Boots",
+      "item.floralstuffcrowns.crown_of_white_tulip_leggings": "Crown Of White Tulip Leggings",
+      "item.floralstuffcrowns.crown_of_orange_tulip_helmet": "Crown Of Orange Tulip",
+      "item.floralstuffcrowns.crown_of_pink_tulip_leggings": "Crown Of Pink Tulip Leggings",
+      "item.floralstuffcrowns.crown_of_allium_leggings": "Crown Of Allium Leggings",
+      "item.floralstuffcrowns.crown_of_white_tulip_helmet": "Crown Of White Tulip Helmet",
+      "item.floralstuffcrowns.crown_of_azure_bluet_boots": "Crown Of Azure Bluet Boots",
+      "item.floralstuffcrowns.crown_of_poppy_chestplate": "Crown Of Poppy Body",
+      "item.floralstuffcrowns.crown_of_poppy_helmet": "Crown Of Poppy",
+      "item.floralstuffcrowns.crown_of_blue_orchid_chestplate": "Crown Of Blue Orchid Body",
+      "item.floralstuffcrowns.crown_of_orange_tulip_boots": "Crown Of Orange Tulip Boots",
+      "item.floralstuffcrowns.crown_of_allium_chestplate": "Crown Of Allium Body",
+      "item.floralstuffcrowns.crown_of_red_tulip_boots": "Crown Of Red Tulip Boots",
+      "item.floralstuffcrowns.crown_of_cornflower_leggings": "Crown Of Cornflower Leggings",
+      "item.floralstuffcrowns.crown_of_blue_orchid_helmet": "Crown Of Blue Orchid Helmet",
+      "item.floralstuffcrowns.crown_of_azure_bluet_chestplate": "Crown Of Azure Bluet Body",
+      "item.floralstuffcrowns.crown_of_orange_tulip_chestplate": "Crown Of Orange Tulip Body",
+      "item.floralstuffcrowns.crown_of_dandelion_boots": "Crown Of Dandelion Boots",
+      "item.floralstuffcrowns.crown_of_dandelion_leggings": "Crown Of Dandelion Leggings",
+      "item.floralstuffcrowns.crown_of_oxeye_daisy_leggings": "Crown Of Oxeye Daisy Leggings",
+      "item.floralstuffcrowns.crown_of_red_tulip_leggings": "Crown Of Red Tulip Leggings",
+      "item.floralstuffcrowns.crown_of_blue_orchid_leggings": "Crown Of Blue Orchid Leggings",
+      "item.floralstuffcrowns.crown_of_cornflower_helmet": "Crown Of Cornflower",
+      "item.floralstuffcrowns.crown_of_white_tulip_boots": "Crown Of White Tulip Boots",
+      "item.floralstuffcrowns.crown_of_cornflower_chestplate": "Crown Of Cornflower Body",
+      "item.floralstuffcrowns.crown_of_poppy_leggings": "Crown Of Poppy Leggings",
+      "item.floralstuffcrowns.crown_of_poppy_boots": "Crown Of Poppy Boots",
+      "itemGroup.tabtab_floral_stuff_crowns": "FloralStuffCrowns",
+      "item.floralstuffcrowns.crown_of_pink_tulip_helmet": "Crown Of Pink Tulip Helmet",
+      "item.floralstuffcrowns.crown_of_red_tulip_chestplate": "Crown Of Red Tulip Body",
+      "item.floralstuffcrowns.crown_of_azure_bluet_leggings": "Crown Of Azure Bluet Leggings"
     }
   },
   "workspaceSettings": {
     "modid": "floralstuffcrowns",
     "modName": "FloralStuffCrowns",
     "version": "1.0.0",
+    "description": "Flower Crowns",
     "author": "henky, MCreator",
     "websiteURL": "https://mcreator.net, https://henkyakubi.net",
     "disableForgeVersionCheck": true,
