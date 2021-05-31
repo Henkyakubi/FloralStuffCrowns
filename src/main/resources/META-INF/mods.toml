@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="floralstuffcrowns"
+version="1.0.0"
+displayName="FloralStuffCrowns"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net, https://henkyakubi.net"
+authors="henky, MCreator"
+
+[[dependencies.floralstuffcrowns]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
