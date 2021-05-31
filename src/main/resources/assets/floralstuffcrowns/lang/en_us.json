@@ -1,1 +1,7 @@
-{}
+{
+  "item.floralstuffcrowns.crown_of_dandelion_leggings": "Crown Of Dandelion Leggings",
+  "item.floralstuffcrowns.crown_of_dandelion_boots": "Crown Of Dandelion Boots",
+  "item.floralstuffcrowns.crown_of_dandelion_helmet": "Crown Of Dandelion",
+  "item.floralstuffcrowns.crown_of_dandelion_chestplate": "Crown Of Dandelion Body",
+  "itemGroup.tabtab_floral_stuff_crowns": "FloralStuffCrowns"
+}

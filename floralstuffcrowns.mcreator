@@ -1,10 +1,67 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CrownOfDandelion",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_dandelion",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfDandelionHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_dandelion_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TabFloralStuffCrowns",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tab_floral_stuff_crowns"
+    },
+    {
+      "name": "CraftCrownDandelion",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_dandelion"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.floralstuffcrowns.crown_of_dandelion_leggings": "Crown Of Dandelion Leggings",
+      "item.floralstuffcrowns.crown_of_dandelion_boots": "Crown Of Dandelion Boots",
+      "item.floralstuffcrowns.crown_of_dandelion_helmet": "Crown Of Dandelion",
+      "item.floralstuffcrowns.crown_of_dandelion_chestplate": "Crown Of Dandelion Body",
+      "itemGroup.tabtab_floral_stuff_crowns": "FloralStuffCrowns"
+    }
   },
   "workspaceSettings": {
     "modid": "floralstuffcrowns",
