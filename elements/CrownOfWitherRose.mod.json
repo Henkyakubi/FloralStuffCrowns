@@ -1,0 +1,56 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "crown_of_wither_rose_front-v2",
+    "enableBody": false,
+    "textureBody": "",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onHelmetTick": {
+      "name": "CrownOfWitherRoseHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:TabFloralStuffCrowns"
+    },
+    "armorTextureFile": "crown_of_wither_rose-v2_",
+    "helmetName": "Crown Of Wither Rose",
+    "bodyName": "Crown Of Wither Rose Body",
+    "leggingsName": "Crown Of Wither Rose Leggings",
+    "bootsName": "Crown Of Wither Rose Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 275,
+    "damageValueHelmet": 3,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 0,
+    "toughness": 1.8,
+    "equipSound": {
+      "value": "entity.wither.death"
+    },
+    "repairItems": []
+  }
+}

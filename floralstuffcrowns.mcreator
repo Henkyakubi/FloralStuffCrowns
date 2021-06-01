@@ -484,6 +484,438 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craft_crown_cornflower"
+    },
+    {
+      "name": "CrownOfLilyOfTheValleyHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_lily_of_the_valley_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfLilyOfTheValley",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_lily_of_the_valley",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownLilyOfTheValley",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_lily_of_the_valley"
+    },
+    {
+      "name": "CrownOfWitherRoseHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_wither_rose_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfWitherRose",
+      "type": "armor",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_wither_rose",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownWitherRose",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_wither_rose"
+    },
+    {
+      "name": "CrownOfSunflowerHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_sunflower_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfSunflower",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_sunflower",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownSunflower",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_sunflower"
+    },
+    {
+      "name": "CrownOfLilacHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_lilac_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfLilac",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_lilac",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownLilac",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_lilac"
+    },
+    {
+      "name": "CrownOfRoseHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_rose_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfRose",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_rose",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownRose",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_rose"
+    },
+    {
+      "name": "CrownOfPeonyHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_peony_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfPeony",
+      "type": "armor",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_peony",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownPeony",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_peony"
+    },
+    {
+      "name": "CrownOfSweetBerriesHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_sweet_berries_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfSweetBerries",
+      "type": "armor",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_sweet_berries",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownSweetBerries",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_sweet_berries"
+    },
+    {
+      "name": "CrownOfGrassHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_grass_helmet_tick_event",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CrownOfGrass",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_grass",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownGrass",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_grass"
+    },
+    {
+      "name": "CrownOfVariousFlowersHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_various_flowers_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfVariousFlowers",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_various_flowers",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CraftCrownVariousFlowers",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_crown_various_flowers"
     }
   ],
   "variable_elements": [],
@@ -491,46 +923,82 @@
   "language_map": {
     "en_us": {
       "item.floralstuffcrowns.crown_of_blue_orchid_boots": "Crown Of Blue Orchid Boots",
-      "item.floralstuffcrowns.crown_of_oxeye_daisy_chestplate": "Crown Of Oxeye Daisy Body",
       "item.floralstuffcrowns.crown_of_cornflower_boots": "Crown Of Cornflower Boots",
+      "item.floralstuffcrowns.crown_of_lily_of_the_valley_boots": "Crown Of Lily Of The Valley Boots",
       "item.floralstuffcrowns.crown_of_orange_tulip_leggings": "Crown Of Orange Tulip Leggings",
       "item.floralstuffcrowns.crown_of_dandelion_chestplate": "Crown Of Dandelion Body",
       "item.floralstuffcrowns.crown_of_pink_tulip_chestplate": "Crown Of Pink Tulip Body",
       "item.floralstuffcrowns.crown_of_white_tulip_chestplate": "Crown Of White Tulip Body",
-      "item.floralstuffcrowns.crown_of_oxeye_daisy_boots": "Crown Of Oxeye Daisy Boots",
-      "item.floralstuffcrowns.crown_of_allium_helmet": "Crown Of Allium",
       "item.floralstuffcrowns.crown_of_allium_boots": "Crown Of Allium Boots",
       "item.floralstuffcrowns.crown_of_dandelion_helmet": "Crown Of Dandelion",
-      "item.floralstuffcrowns.crown_of_red_tulip_helmet": "Crown Of Red Tulip Helmet",
       "item.floralstuffcrowns.crown_of_azure_bluet_helmet": "Crown Of Azure Bluet",
-      "item.floralstuffcrowns.crown_of_oxeye_daisy_helmet": "Crown Of Oxeye Daisy",
-      "item.floralstuffcrowns.crown_of_pink_tulip_boots": "Crown Of Pink Tulip Boots",
-      "item.floralstuffcrowns.crown_of_white_tulip_leggings": "Crown Of White Tulip Leggings",
+      "item.floralstuffcrowns.crown_of_peony_chestplate": "Crown Of Peony Body",
       "item.floralstuffcrowns.crown_of_orange_tulip_helmet": "Crown Of Orange Tulip",
       "item.floralstuffcrowns.crown_of_pink_tulip_leggings": "Crown Of Pink Tulip Leggings",
       "item.floralstuffcrowns.crown_of_allium_leggings": "Crown Of Allium Leggings",
+      "item.floralstuffcrowns.crown_of_wither_rose_leggings": "Crown Of Wither Rose Leggings",
+      "item.floralstuffcrowns.crown_of_peony_boots": "Crown Of Peony Boots",
+      "item.floralstuffcrowns.crown_of_lily_of_the_valley_chestplate": "Crown Of Lily Of The Valley Body",
+      "item.floralstuffcrowns.crown_of_poppy_helmet": "Crown Of Poppy",
+      "item.floralstuffcrowns.crown_of_rose_leggings": "Crown Of Rose Leggings",
+      "item.floralstuffcrowns.crown_of_various_flowers_boots": "Crown Of Various Flowers Boots",
+      "item.floralstuffcrowns.crown_of_grass_helmet": "Crown Of Grass",
+      "item.floralstuffcrowns.crown_of_sunflower_boots": "Crown Of Sunflower Boots",
+      "item.floralstuffcrowns.crown_of_dandelion_leggings": "Crown Of Dandelion Leggings",
+      "item.floralstuffcrowns.crown_of_red_tulip_leggings": "Crown Of Red Tulip Leggings",
+      "item.floralstuffcrowns.crown_of_peony_leggings": "Crown Of Peony Leggings",
+      "item.floralstuffcrowns.crown_of_rose_helmet": "Crown Of Rose",
+      "item.floralstuffcrowns.crown_of_white_tulip_boots": "Crown Of White Tulip Boots",
+      "item.floralstuffcrowns.crown_of_poppy_leggings": "Crown Of Poppy Leggings",
+      "item.floralstuffcrowns.crown_of_poppy_boots": "Crown Of Poppy Boots",
+      "item.floralstuffcrowns.crown_of_sunflower_leggings": "Crown Of Sunflower Leggings",
+      "item.floralstuffcrowns.crown_of_peony_helmet": "Crown Of Peony",
+      "item.floralstuffcrowns.crown_of_wither_rose_helmet": "Crown Of Wither Rose",
+      "item.floralstuffcrowns.crown_of_lilac_leggings": "Crown Of Lilac Leggings",
+      "item.floralstuffcrowns.crown_of_sweet_berries_boots": "Crown Of Sweet Berries Boots",
+      "item.floralstuffcrowns.crown_of_lilac_chestplate": "Crown Of Lilac Body",
+      "item.floralstuffcrowns.crown_of_oxeye_daisy_chestplate": "Crown Of Oxeye Daisy Body",
+      "item.floralstuffcrowns.crown_of_sweet_berries_leggings": "Crown Of Sweet Berries Leggings",
+      "item.floralstuffcrowns.crown_of_sunflower_chestplate": "Crown Of Sunflower Body",
+      "item.floralstuffcrowns.crown_of_oxeye_daisy_boots": "Crown Of Oxeye Daisy Boots",
+      "item.floralstuffcrowns.crown_of_various_flowers_leggings": "Crown Of Various Flowers Leggings",
+      "item.floralstuffcrowns.crown_of_allium_helmet": "Crown Of Allium",
+      "item.floralstuffcrowns.crown_of_lilac_helmet": "Crown Of Lilac",
+      "item.floralstuffcrowns.crown_of_grass_chestplate": "Crown Of Grass Body",
+      "item.floralstuffcrowns.crown_of_wither_rose_boots": "Crown Of Wither Rose Boots",
+      "item.floralstuffcrowns.crown_of_red_tulip_helmet": "Crown Of Red Tulip Helmet",
+      "item.floralstuffcrowns.crown_of_lily_of_the_valley_helmet": "Crown Of Lily Of The Valley",
+      "item.floralstuffcrowns.crown_of_wither_rose_chestplate": "Crown Of Wither Rose Body",
+      "item.floralstuffcrowns.crown_of_oxeye_daisy_helmet": "Crown Of Oxeye Daisy",
+      "item.floralstuffcrowns.crown_of_pink_tulip_boots": "Crown Of Pink Tulip Boots",
+      "item.floralstuffcrowns.crown_of_grass_boots": "Crown Of Grass Boots",
+      "item.floralstuffcrowns.crown_of_white_tulip_leggings": "Crown Of White Tulip Leggings",
       "item.floralstuffcrowns.crown_of_white_tulip_helmet": "Crown Of White Tulip Helmet",
       "item.floralstuffcrowns.crown_of_azure_bluet_boots": "Crown Of Azure Bluet Boots",
       "item.floralstuffcrowns.crown_of_poppy_chestplate": "Crown Of Poppy Body",
-      "item.floralstuffcrowns.crown_of_poppy_helmet": "Crown Of Poppy",
+      "item.floralstuffcrowns.crown_of_lily_of_the_valley_leggings": "Crown Of Lily Of The Valley Leggings",
       "item.floralstuffcrowns.crown_of_blue_orchid_chestplate": "Crown Of Blue Orchid Body",
       "item.floralstuffcrowns.crown_of_orange_tulip_boots": "Crown Of Orange Tulip Boots",
+      "item.floralstuffcrowns.crown_of_grass_leggings": "Crown Of Grass Leggings",
       "item.floralstuffcrowns.crown_of_allium_chestplate": "Crown Of Allium Body",
+      "item.floralstuffcrowns.crown_of_sweet_berries_helmet": "Crown Of Sweet Berries",
+      "item.floralstuffcrowns.crown_of_sunflower_helmet": "Crown Of Sunflower",
+      "item.floralstuffcrowns.crown_of_various_flowers_helmet": "Crown Of Various Flowers",
       "item.floralstuffcrowns.crown_of_red_tulip_boots": "Crown Of Red Tulip Boots",
       "item.floralstuffcrowns.crown_of_cornflower_leggings": "Crown Of Cornflower Leggings",
       "item.floralstuffcrowns.crown_of_blue_orchid_helmet": "Crown Of Blue Orchid Helmet",
       "item.floralstuffcrowns.crown_of_azure_bluet_chestplate": "Crown Of Azure Bluet Body",
       "item.floralstuffcrowns.crown_of_orange_tulip_chestplate": "Crown Of Orange Tulip Body",
+      "item.floralstuffcrowns.crown_of_rose_boots": "Crown Of Rose Boots",
+      "item.floralstuffcrowns.crown_of_sweet_berries_chestplate": "Crown Of Sweet Berries Body",
       "item.floralstuffcrowns.crown_of_dandelion_boots": "Crown Of Dandelion Boots",
-      "item.floralstuffcrowns.crown_of_dandelion_leggings": "Crown Of Dandelion Leggings",
       "item.floralstuffcrowns.crown_of_oxeye_daisy_leggings": "Crown Of Oxeye Daisy Leggings",
-      "item.floralstuffcrowns.crown_of_red_tulip_leggings": "Crown Of Red Tulip Leggings",
       "item.floralstuffcrowns.crown_of_blue_orchid_leggings": "Crown Of Blue Orchid Leggings",
       "item.floralstuffcrowns.crown_of_cornflower_helmet": "Crown Of Cornflower",
-      "item.floralstuffcrowns.crown_of_white_tulip_boots": "Crown Of White Tulip Boots",
+      "item.floralstuffcrowns.crown_of_rose_chestplate": "Crown Of Rose Body",
       "item.floralstuffcrowns.crown_of_cornflower_chestplate": "Crown Of Cornflower Body",
-      "item.floralstuffcrowns.crown_of_poppy_leggings": "Crown Of Poppy Leggings",
-      "item.floralstuffcrowns.crown_of_poppy_boots": "Crown Of Poppy Boots",
+      "item.floralstuffcrowns.crown_of_lilac_boots": "Crown Of Lilac Boots",
+      "item.floralstuffcrowns.crown_of_various_flowers_chestplate": "Crown Of Various Flowers Body",
       "itemGroup.tabtab_floral_stuff_crowns": "FloralStuffCrowns",
       "item.floralstuffcrowns.crown_of_pink_tulip_helmet": "Crown Of Pink Tulip Helmet",
       "item.floralstuffcrowns.crown_of_red_tulip_chestplate": "Crown Of Red Tulip Body",
