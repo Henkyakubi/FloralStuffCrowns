@@ -69,7 +69,7 @@ public class CrownOfSunflowerHelmetTickEventProcedure extends FloralstuffcrownsM
 						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 							return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 						}
-					}.compareDistOf(x, y, z)).findFirst().orElse(null)).setFire((int) 3);
+					}.compareDistOf(x, y, z)).findFirst().orElse(null)).setFire((int) 2);
 		}
 	}
 }

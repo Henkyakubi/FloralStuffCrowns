@@ -42,11 +42,12 @@ public class CrownOfVariousFlowersHelmetTickEventProcedure extends Floralstuffcr
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((Math.random() >= 0.92)) {
-			if (BoneMealItem.applyBonemeal(new ItemStack(Items.BONE_MEAL), world.getWorld(), new BlockPos((int) x, (int) y, (int) z)) || BoneMealItem
-					.growSeagrass(new ItemStack(Items.BONE_MEAL), world.getWorld(), new BlockPos((int) x, (int) y, (int) z), (Direction) null)) {
+		if ((Math.random() >= 0.96)) {
+			if (BoneMealItem.applyBonemeal(new ItemStack(Items.BONE_MEAL), world.getWorld(), new BlockPos((int) x, (int) (y - 1), (int) z))
+					|| BoneMealItem.growSeagrass(new ItemStack(Items.BONE_MEAL), world.getWorld(), new BlockPos((int) x, (int) (y - 1), (int) z),
+							(Direction) null)) {
 				if (!world.getWorld().isRemote)
-					world.getWorld().playEvent(2005, new BlockPos((int) x, (int) y, (int) z), 0);
+					world.getWorld().playEvent(2005, new BlockPos((int) x, (int) (y - 1), (int) z), 0);
 			}
 		}
 	}

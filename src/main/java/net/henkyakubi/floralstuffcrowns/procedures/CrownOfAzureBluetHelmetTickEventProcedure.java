@@ -60,9 +60,9 @@ public class CrownOfAzureBluetHelmetTickEventProcedure extends Floralstuffcrowns
 					}
 				}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 60, (int) 1, (true), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 30, (int) 1, (true), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 1, (true), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 30, (int) 1, (true), (false)));
 		}
 	}
 }

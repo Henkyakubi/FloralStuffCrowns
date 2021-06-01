@@ -33,9 +33,9 @@ public class CrownOfPinkTulipHelmetTickEventProcedure extends FloralstuffcrownsM
 		IWorld world = (IWorld) dependencies.get("world");
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Blocks.PINK_TULIP, (int) (1)).getItem())) {
-			if ((((world.getWorld().getDayTime()) % 5000) == 0)) {
+			if ((((world.getWorld().getDayTime()) % 3000) == 0)) {
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.ABSORPTION, (int) 2500, (int) 1, (true), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.ABSORPTION, (int) 2000, (int) 1, (true), (false)));
 			}
 		}
 	}
